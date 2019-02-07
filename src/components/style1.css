@@ -1,0 +1,136 @@
+@-webkit-keyframes highlight {
+    0% {
+      background: #7cd3f3;
+    }
+    100% {
+      background: #1c8aab;
+    }
+  }
+  @keyframes highlight {
+    0% {
+      background: #7cd3f3;
+    }
+    100% {
+      background: #1c8aab;
+    }
+  }
+  .Certificate{
+      width: 100%;
+   }
+   .Company{
+      float: left;
+   }
+   .Date_Inum{
+      float: right;
+   }
+  h1 {
+    color: rgb(68, 79, 139);
+    margin: 0 0 20px;
+    padding-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 3px 5px #bfd9db;
+  }
+  form {
+    display:inline-block;
+    width: 500px;
+    background: #009fc3;
+    box-shadow: 0px 0px 5px 2px #333;
+    margin-left: 31%;
+    padding-top: 20px; 
+  }
+  span.item {
+      float: left ;
+      width: 30%;
+      padding: 2px;
+     
+    }
+  .address{
+      float: left;
+      width: 80%;
+  }
+  .date{
+      float:right ;
+      width: 20%;
+  }
+  #addButton{
+      width: 100%;
+      margin-left: 0%;
+  }
+  label {
+   
+    width: 100%;
+    padding: 0 30px;
+    color: #fff;
+  }
+  input,textarea {
+    border: 0;
+    padding: 10px 15px;
+    margin-bottom: 30px;
+  }
+  input:not([type="submit"]),textarea {
+    width: calc(100% - 90px);
+    margin-left: 30px;
+  }
+  input[type="submit"] {
+    background: #36454f;
+    color: #fff;
+    border: 0;
+    width: 100%;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+  }
+  input[type="submit"]:hover {
+    background: #00ba72;
+  }
+  button:hover {
+      background: #00ba72;
+    }
+  button {
+      background: #36454f;
+      color: #fff;
+      border: 0;
+      width: 20%;
+      font-size: 15px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      margin-left:40%;
+      text-transform: uppercase;
+      transition: all 0.2s ease-in-out;
+  }
+  table {
+          border: 2px solid black;
+          border-collapse: collapse;
+          margin-top: 70px;
+          width: 90%;
+          margin-left: 20px;
+          text-align: center;
+  }
+  th,td{
+      border: 2px solid black;
+      border-collapse: collapse; 
+  }
+   
+  .issuer{
+      width:33%;
+      display: block;
+      margin-top: 100px;
+  }
+  img{
+      height: 60px;
+  }
+  .welcome{
+          font-size: 40px;
+          height: 150px;
+          position: absolute;
+          top:0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          margin: auto;
+      
+  }
